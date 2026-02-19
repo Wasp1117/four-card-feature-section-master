@@ -4,6 +4,7 @@ html {
     font-family: "Poppins", sans-serif;
      font-weight: 300;
      font-style: normal;
+     font-size: clamp(1rem, 2.5vw, 3rem)
 }
 
 body {
@@ -118,7 +119,7 @@ grid-row-end:3;
 align-items: center;
 }
 .card.calculator {
-        align-self:center;
+align-self:center;
 
 }
 
